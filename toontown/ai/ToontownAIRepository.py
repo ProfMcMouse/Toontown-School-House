@@ -308,7 +308,8 @@ class ToontownAIRepository(ToontownInternalRepository):
         # Donald's Dock
         self.zoneTable[ToontownGlobals.DonaldsDock] = (
             (ToontownGlobals.DonaldsDock, 1, 0), (ToontownGlobals.BarnacleBoulevard, 1, 1),
-            (ToontownGlobals.SeaweedStreet, 1, 1), (ToontownGlobals.LighthouseLane, 1, 1)
+            (ToontownGlobals.SeaweedStreet, 1, 1), (ToontownGlobals.LighthouseLane, 1, 1),
+            (ToontownGlobals.AnchorAvenue, 1, 0)
         )
         self.createHood(DDHoodDataAI, ToontownGlobals.DonaldsDock)
 

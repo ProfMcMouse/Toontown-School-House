@@ -797,6 +797,11 @@ group "donaldsDock" [
      ]
     ]
    ]
+   prop "linktunnel_dd_1401_DNARoot" [
+    code [ "prop_safe_zone_tunnel" ]
+    pos [ 116.502 190.146 -2.33298 ]
+    nhpr [ 136 0 0 ]
+   ]
    flat_building "tb0:random_DNARoot" [
     pos [ 75 -40 5.67 ]
     nhpr [ 0 0 0 ]

@@ -155,6 +155,7 @@ DonaldsDreamland = 9000
 BarnacleBoulevard = 1100
 SeaweedStreet = 1200
 LighthouseLane = 1300
+AnchorAvenue = 1400
 SillyStreet = 2100
 LoopyLane = 2200
 PunchlinePlace = 2300
@@ -171,7 +172,7 @@ LullabyLane = 9100
 PajamaPlace = 9200
 ToonHall = 2513
 HoodHierarchy = {ToontownCentral: (SillyStreet, LoopyLane, PunchlinePlace),
- DonaldsDock: (BarnacleBoulevard, SeaweedStreet, LighthouseLane),
+ DonaldsDock: (BarnacleBoulevard, SeaweedStreet, LighthouseLane, AnchorAvenue),
  TheBrrrgh: (WalrusWay, SleetStreet, PolarPlace),
  MinniesMelodyland: (AltoAvenue, BaritoneBoulevard, TenorTerrace),
  DaisyGardens: (ElmStreet, MapleStreet, OakStreet),
