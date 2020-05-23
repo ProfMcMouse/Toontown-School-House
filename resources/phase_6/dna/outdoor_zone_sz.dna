@@ -91,7 +91,7 @@ group "daisysGarden" [
     nhpr [ 105 -0.422594 0.309814 ]
     scale [ 1.0546 1.0546 1.0546 ]
    ]
-   prop "linktunnel_dd_1000_DNARoot" [
+   prop "linktunnel_dd_1401_DNARoot" [
     code [ "prop_outdoor_zone_entrance" ]
     pos [ 86.7098 148.899 0.0205739 ]
     nhpr [ 321.091 0 0 ]

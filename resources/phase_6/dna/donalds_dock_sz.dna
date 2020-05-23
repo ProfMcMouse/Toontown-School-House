@@ -797,11 +797,6 @@ group "donaldsDock" [
      ]
     ]
    ]
-   prop "linktunnel_dd_1401_DNARoot" [
-    code [ "prop_safe_zone_tunnel" ]
-    pos [ 116.502 190.146 -2.33298 ]
-    nhpr [ 136 0 0 ]
-   ]
    flat_building "tb0:random_DNARoot" [
     pos [ 75 -40 5.67 ]
     nhpr [ 0 0 0 ]
@@ -926,74 +921,32 @@ group "donaldsDock" [
      ]
     ]
    ]
-   prop "linktunnel_oz_6000_DNARoot" [
-    code [ "prop_outdoor_zone_entrance" ]
-    pos [ -53.1974 172.046 3.27967 ]
-    nhpr [ 52.125 0 0 ]
+   prop "linktunnel_dd_1401_DNARoot" [
+    code [ "prop_safe_zone_tunnel" ]
+    pos [ -76.1974 282.046 -3.72033 ]
+    nhpr [ -133 0 0 ]
     sign [
-     code [ "DD_sign2" ]
-     scale [ 2 1 1.4 ]
+     code [ "tunnel_sign_red" ]
+     scale [ 1.5 1 1.5 ]
      baseline [
-      code [ "TT_Comedy" ]
-      color [ 0.439216 0.247059 0.184314 1 ]
-      scale [ 1.5 1 1.4 ]
-      wiggle [ 3 ]
-      stomp [ 0.0367716 ]
+      code [ "mickey" ]
+      color [ 0.501961 0 0.25098 1 ]
+      pos [ 0 0 -0.91 ]
+      nhpr [ 0 0 1 ]
+      scale [ 1.3 1 1.5 ]
+      width [ 39.2357 ]
+      height [ 39.2357 ]
       text [
-       letters [ "C" ]
-      ]
-      text [
-       letters [ "h" ]
-      ]
-      text [
-       letters [ "i" ]
-      ]
-      text [
-       letters [ "p" ]
-      ]
-      text [
-       letters [ " " ]
+       letters [ "A" ]
       ]
       text [
        letters [ "n" ]
       ]
       text [
-       letters [ "'" ]
-      ]
-      text [
-       letters [ " " ]
-      ]
-      text [
-       letters [ "D" ]
-      ]
-      text [
-       letters [ "a" ]
-      ]
-      text [
-       letters [ "l" ]
-      ]
-      text [
-       letters [ "e" ]
-      ]
-      text [
-       letters [ "'" ]
-      ]
-      text [
-       letters [ "s" ]
-      ]
-     ]
-     baseline [
-      code [ "TT_Comedy" ]
-      color [ 0.439216 0.247059 0.184314 1 ]
-      pos [ 0 0 -1.2 ]
-      scale [ 1.5 1 1.4 ]
-      wiggle [ 3 ]
-      stomp [ 0.0367716 ]
-      text [
-       letters [ "A" ]
-      ]
-      text [
        letters [ "c" ]
+      ]
+      text [
+       letters [ "h" ]
       ]
       text [
        letters [ "o" ]
@@ -1002,25 +955,79 @@ group "donaldsDock" [
        letters [ "r" ]
       ]
       text [
-       letters [ "n" ]
-      ]
-      text [
        letters [ " " ]
       ]
       text [
        letters [ "A" ]
       ]
       text [
-       letters [ "c" ]
-      ]
-      text [
-       letters [ "r" ]
+       letters [ "v" ]
       ]
       text [
        letters [ "e" ]
       ]
       text [
+       letters [ "n" ]
+      ]
+      text [
+       letters [ "u" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+     ]
+     baseline [
+      code [ "mickey" ]
+      color [ 0.501961 0 0.25098 1 ]
+      pos [ -0.12 0 -1.9 ]
+      scale [ 0.8 1 0.8 ]
+      width [ 38.8969 ]
+      height [ 38.8969 ]
+      text [
+       letters [ "D" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ "n" ]
+      ]
+      text [
+       letters [ "a" ]
+      ]
+      text [
+       letters [ "l" ]
+      ]
+      text [
+       letters [ "d" ]
+      ]
+      text [
+       letters [ "'" ]
+      ]
+      text [
        letters [ "s" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "D" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ "c" ]
+      ]
+      text [
+       letters [ "k" ]
+      ]
+     ]
+     baseline [
+      pos [ 0 0 1.76 ]
+      scale [ 2.5 1 2.5 ]
+      graphic [
+       code [ "donaldSZ" ]
       ]
      ]
     ]
